@@ -44,6 +44,7 @@ Paragraph Default : 1.6
 ---- 06 BORDER-RADIUS
 
 Default: 9px
+Medium: 11px
 
 
 ---- SPACING SYSTEM (px)
@@ -70,6 +71,9 @@ body {
   color: #555;
 }
 
+strong {
+  font-weight: 500;
+}
 /* *************************** */
 /* General reusable components */
 /* *************************** */
@@ -119,7 +123,7 @@ body {
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
 
-  transition: background-color 0.3s;
+  transition: all 0.3s;
 }
 
 .btn--full:link,
@@ -160,13 +164,12 @@ body {
   max-width: 120rem;
   margin: 0 auto;
   padding: 0 3.2rem;
-  margin-bottom: 9.6rem;
 }
 
 .grid {
   display: grid;
-  row-gap: 9.6rem;
   column-gap: 6.4rem;
+  row-gap: 10rem;
 }
 
 .grid--2-cols {
