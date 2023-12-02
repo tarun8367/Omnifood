@@ -34,6 +34,7 @@ Paragraph Default : 1.6
 #fae5d3
 #eb984e
 -Shades:#cf711f
+#45260a
 -Accents:
 -Greys: 
 #6f6f6f (lightest gray allowed on #fdf2e9
@@ -60,6 +61,12 @@ Medium: 11px
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+*:focus {
+  outline: none;
+  /* outline: 4px dotted #e67e22; */
+  /* outline-offset: 8px; */
+  box-shadow: 0 0 0 0.8rem rgba(232, 127, 36, 0.304);
 }
 
 html {
@@ -117,6 +124,7 @@ strong {
   letter-spacing: 0.75px;
 }
 
+.btn,
 .btn:link,
 .btn:visited {
   display: inline-block;
@@ -125,7 +133,9 @@ strong {
   text-decoration: none;
   padding: 1.6rem 3.2rem;
   border-radius: 9px;
-
+  cursor: pointer;
+  border: none;
+  font-family: inherit;
   transition: all 0.3s;
 }
 
