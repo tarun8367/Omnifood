@@ -18,3 +18,41 @@
     padding: 1.6rem;
   }
 }
+
+/* *************************** */
+/* BELOW 1200 px (Landscape tablets)*/
+/* *************************** */
+
+@media (max-width: 75em) {
+  html {
+    /* 9/16 = 56.25% */
+    font-size: 56.25%;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+
+  .hero {
+    gap: 4.8rem;
+  }
+
+  .grid {
+    column-gap: 4.8rem;
+    column-gap: 6.4rem;
+  }
+  .heading-seconday {
+    font-size: 3.6rem;
+  }
+
+  .heading-tertiary {
+    font-size: 2.4rem;
+  }
+
+  .testimonials-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
